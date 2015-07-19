@@ -1,0 +1,1 @@
+"Violeta".scan(/[Violeta]/) { |x| puts x }
