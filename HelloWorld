@@ -1,0 +1,15 @@
+
+a="violeta"
+b="VIOLETA"
+c= "hello world"
+
+puts a
+puts a.length
+puts a.swapcase
+puts b.swapcase
+#puts a./[aeiou]
+"My name is Violeta".scan(/[aeiou]/) { |x| puts x }
+puts "Violeta".count "\\^aeiou"
+puts a.reverse
+
+puts c.swapcase
